@@ -1,0 +1,54 @@
+name: todo_app
+description: A professional To-Do List application using Flutter, GetX, and MVC.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  
+  # State Management & Navigation
+  get: ^4.6.6
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.2.1
+  
+  # Password Hashing
+  crypto: ^3.0.3
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/app_icon.png"
+    background_color: "#4F46E5"
+    theme_color: "#4F46E5"
+  windows:
+    generate: true
+    image_path: "assets/images/app_icon.png"
+    icon_size: 256
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
