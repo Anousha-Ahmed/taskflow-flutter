@@ -1,17 +1,46 @@
-# todo_app
+# TaskFlow
 
-A new Flutter project.
+A To-Do List mobile application built with Flutter, GetX, and MVC architecture.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Registration and Login
+- Add, Edit, Delete Tasks
+- Mark tasks as Completed or Pending
+- Search tasks by title
+- Filter: All / Pending / Completed
+- Sort by Priority or Due Date
+- Priority levels: Low, Medium, High
+- Live stats: Total, Done, Active
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- GetX (State Management & Navigation)
+- SQLite (Local Database)
+- SHA-256 (Password Hashing)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+lib/
+├── main.dart
+├── app/
+│   ├── routes/
+│   ├── bindings/
+│   └── constants/
+├── data/
+│   ├── models/
+│   └── services/
+├── modules/
+│   ├── auth/
+│   ├── home/
+│   └── tasks/
+└── shared/
+    └── widgets/
+
+## How to Run
+
+flutter pub get
+flutter run
+
