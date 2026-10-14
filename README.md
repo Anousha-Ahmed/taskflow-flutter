@@ -23,6 +23,7 @@ A To-Do List mobile application built with Flutter, GetX, and MVC architecture.
 
 ## Project Structure
 
+```
 lib/
 ├── main.dart
 ├── app/
@@ -38,9 +39,12 @@ lib/
 │   └── tasks/
 └── shared/
     └── widgets/
+```
 
 ## How to Run
 
+```bash
 flutter pub get
 flutter run
+```
 
